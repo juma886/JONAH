@@ -101,12 +101,13 @@
 	
 	backdrop-filter: blur(5px);
 	 display:flex;
-	 justify-content: space-between;
+	column-gap: 10%;
 	
 }
-.div2{margin: 20px;
+.div2{
+	margin: 30px 0px 20px 10%;
 width: 600px;
-height: 540px;
+height:600px;
 background-image:url(jj.jfif);
 background-repeat: no-repeat ;
 background-size: 100% 100%;
@@ -114,8 +115,31 @@ border-bottom-left-radius:20px ;
 border-top-right-radius: 20px;
 box-shadow: 0px 0px 10px black;
 }
+.div2:hover{margin: 70px 0px 20px 10%;
+	width: 600px;
+	height:600px;
+	background-image:url(jj.jfif);
+	background-repeat: no-repeat ;
+	background-size: 100% 100%;
+	border-bottom-left-radius:20px ;
+	border-top-right-radius: 20px;
+	box-shadow: 0px 0px 20px rgb(10, 0, 0);
+	}
+	
 
 .div3{
+	box-shadow: 0px 0px 10px black;
+	border: 2px solid rgba(0, 0, 255, 0.308);
+	border-radius: 10px;
+	padding: 10px  10px;
+	margin-top:20px ;
+	margin-right: 50px;
+width: 500px;
+height:520px;
+background-color:white;
+}
+.div3{
+	box-shadow: 0px 0px 20px rgb(10, 0, 0);
 	border: 2px solid rgba(0, 0, 255, 0.308);
 	border-radius: 10px;
 	padding: 10px  10px;

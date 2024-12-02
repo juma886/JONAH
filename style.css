@@ -11,7 +11,8 @@ body{
 	text-align: center;
 	padding: 5px;
 	margin: 1px;
-	margin-top: 40px;
+	margin-top:0;
+	margin-left: 20%;
 	width: 100%;
 	height: 300px;
 	display: flex;
@@ -116,7 +117,7 @@ footer{
 	}
 .slider{
 	transition:  .3s ease;
-	margin: 150px 10px 20px 230px;
+	margin: 150px 10px 20px  20%;
 	border: 1px solid rgb(123, 123, 226);
 	border-radius: 20px;
 	width: 900px;
@@ -156,7 +157,8 @@ footer{
 }
 
 .power{
-	margin-top: -100px;
+	margin-left: 50%;
+	margin-top: 5%;
 	margin-bottom: 10%;
 	font-family: roboto;
 	font-size: medium;
@@ -166,7 +168,7 @@ footer{
 	height: 400px;
 	margin: 20px 300px;
 	display: flex;
-	justify-content: space-between;
+		column-gap:40%;
 	align-items: center;
 
 .shade1{
@@ -201,8 +203,12 @@ footer{
 		display: inline-block;
 		width: 400px;
 		height:180px ;
+
 	}
-	
+
+	.int{
+		margin-left: 40%;
+	}
 	
 
       
